@@ -1,0 +1,82 @@
+body{
+    background: url("/img/fondo.png");
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.ventana{
+    background: rgba(85, 82, 82, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.registro{
+    
+    background: rgba(34, 54, 85, 0.3);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 25px;
+    width: 300px;
+    border-top: 3px solid #7e2014;
+    border-right: 3px solid #7e2014;   
+    border-bottom: 3px solid #7e2014;
+    border-left: 3px solid #7e2014;
+    border-radius: 10px;
+   
+    
+}.titulo{
+    font-size: 40px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+
+.registro form .btn-submit:hover {
+background: none;
+}
+.btn-submit{
+    color: rgb(255, 255, 255);
+   width: 102%;
+   height: 40px;
+   background-color: #000000;
+   font-size: 18px;
+   border: 2px solid #0d1383;
+   border-radius: 24px;
+ 
+}.com{
+    width: 100%;
+    background-color: rgb(218, 218, 218,0.2);
+    height: 25px;
+    border: none;
+    border: 2px solid #0b2418;
+}.etiqueta{
+   font-size: 120%;
+   color: rgb(255, 255, 255,0.9);
+}.com:hover{
+    background: rgb(255, 255, 255,0.6);
+}.registro h3{
+    margin-top: -6%;
+    text-align: center;
+    color: rgb(255, 255, 255,0.7);
+}.btn_salir{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 1150px;
+    top: 580px;
+    border-radius: 25px;
+    height: 35px;
+    width: 90px;
+    border:none;
+    background: rgb(5, 35, 126);
+    color: white;
+
+}.btn_salir:hover{
+    background: none;
+    color: black;
+    border: 2px solid #000ace;
+}

@@ -1,0 +1,155 @@
+*{
+    margin:0;  
+    padding: 0%;
+    box-sizing: border-box;
+
+ }.biblioteca_3{
+    background: rgb(3, 3, 155);
+    padding: 35px;
+    height: 600px;
+    width: 73%;
+    margin-left: 215px;
+    
+
+ }.biblioteca_3 .img_bi1{
+     float: left;
+     height: 500px;
+     width: 450px;
+     display: block;
+    
+ }.biblioteca_3 p{
+margin: 35px;
+font-size: 18px;
+position: relative;
+top: 0;
+bottom: 0;
+left: 45px;
+right: 0;
+color: rgb(255, 255, 255);
+
+ } .biblioteca_3 h1{
+ text-align: center;
+   font-size: 60px;
+    }
+
+ 
+ 
+ .bi_todo{
+padding: 35px;
+margin-left: 180px;
+ }.biblioteca_3 .img_bi{
+     float: left;
+     height:400px ;
+     width: 400px;
+
+ }.biblioteca_2 .img_bi{
+    
+    float: right;
+    height:420px ;
+    width: 520px;
+ }.biblioteca{
+background: blue;
+height: 420px;
+width: 90%;
+
+
+ }.biblioteca h1,li{
+   margin: 15px;
+   font-size: 18px;
+   position: relative;
+   top: 40px;
+   bottom: 0;
+   left: 70px;
+   right: 0;
+   color: rgb(255, 255, 255);
+ }.biblioteca h1{
+    font-size: 50px;
+    
+
+ }.biblioteca .img_bi{
+    float: left;
+    height:420px ;
+    width: 520px;
+    
+ }.biblioteca_2{
+    
+    background: sandybrown;
+    height: 420px;
+    width: 90%;
+ }.TITULO{
+     background: rgb(0, 4, 255);
+     padding: 30px;
+     height: 100px;
+     margin: 25px;
+     color: white;
+     text-align: center;
+     font-size: 45px;
+      opacity: 90%;
+
+ }.biblioteca_2 h1,li{
+   
+   font-size: 18px;
+   position: relative;
+   top: 40px;
+   bottom: 0;
+   left: 20px;
+   right: 0;
+   color: rgb(5, 5, 5);
+ }.biblioteca_2 h1{
+    font-size: 50px;
+    color: white;
+   }.icon-atras{
+   position:  absolute;
+   top: 150px;
+   bottom: 0;
+   left:0px;
+   right: 0;
+   text-decoration: none;
+   font-size: 30px;
+   color: blue;
+   opacity: 80%;
+   }/* btn */
+#btn-mas{ 
+   display: none;
+}
+.container{
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+}
+.redes a, .btn-mas label{
+   display: block;
+   text-decoration: none;
+   background: #cc2b2b;
+   color: #fff;
+   width: 55px;
+   height: 55px;
+   line-height: 55px;
+   text-align: center;
+   border-radius: 50%;
+   box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+   transition: all 500ms ease;
+}
+.redes a:hover{
+   background: #fff;
+   color: #cc2b2b;
+}
+.redes a{
+   margin-bottom: -15px;
+   opacity: 0;
+   visibility: hidden;
+}
+#btn-mas:checked~ .redes a{
+   margin-bottom: 10px;
+   opacity: 1;
+   visibility: visible;
+}
+.btn-mas label{
+   cursor: pointer;
+   background: #f44141;
+   font-size: 23px;
+}
+#btn-mas:checked ~ .btn-mas label{
+   transform: rotate(135deg);
+   font-size: 25px;
+}

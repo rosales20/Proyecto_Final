@@ -1,0 +1,231 @@
+main{
+	padding: 3.5rem 0;
+    width: 50%;
+	background-color: rgb(248, 248, 248);
+    position: relative;
+    top: -10px;
+    bottom: 0;
+    left: 42%;
+    right: 0;
+    border: 2px solid rgba(255, 5, 5, 0.6);
+    
+}.titulo{
+    background: rgba(9, 48, 121, 0.9);
+    width: 90%;
+    height: 60px;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+    font-size: 60px;
+    color: white;
+    
+}.logo img{
+    height:120px  ;
+    width:120px ;
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    left: 70px;
+    right: 0;
+}.cont h1{
+    font-size: 50px;
+ 
+}.cont p{
+    font-size: 25px;
+}.img_img{
+    height:420px  ;
+    width:420px ;
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    left: 70px;
+    right: 0;
+}
+
+
+
+
+
+h2{
+	font-size: 2rem;
+	font-weight: bold;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #000000;
+}
+
+form{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	width: 100%;
+	max-width: 490px;
+	margin-top: 2.8rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.field{
+	display: flex;
+	flex-direction: column;
+
+	width: 14rem;
+	margin: 0.5rem 0;
+}
+
+.field label{
+	font-size: 0.9rem;
+
+	margin-bottom: 0.2rem;
+
+	color: #000000;
+}
+
+.field input{
+	font-size: 1.1rem;
+
+	height: 2.2rem;
+	padding-left: 0.5rem;
+
+	border: 2px solid #696969;
+	border-radius: 5px;
+}
+
+.field select{
+	font-size: 1.1rem;
+
+	width: 12rem;
+	height: 2.6rem;
+	padding-left: 0.5rem;
+
+	border: 2px solid #696969;
+	border-radius: 5px;
+}
+
+.textBox{
+	display: flex;
+	flex-direction: column;
+
+	width: 25rem;
+	margin: 0.75rem 0;
+    
+}
+
+textarea{
+	font-size: 1.1rem;
+
+	max-width: 100%;
+	height: 5rem;
+	max-height: 15rem;
+	padding-top: 0.5rem;
+	padding-left: 0.5rem;
+
+	border: 2px solid #696969;
+	border-radius: 5px;
+}
+
+.textBox label{
+	font-size: 0.9rem;
+
+	margin-bottom: 0.2rem;
+
+	color: #000000;
+}
+
+.gustos{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	width: 20rem;
+	margin: 0.75rem 0;
+}
+
+.gustos label{
+	font-size: 0.9rem;
+
+	margin-bottom: 0.2rem;
+
+	color: #696969;
+}
+
+.gustos div{
+	display: flex;
+	justify-content: flex-start;
+
+	width: 100%;
+	padding-left: 0.5rem;
+}
+
+.gustos div input{
+	width: 1rem;
+	height: 1rem;
+}
+
+.submit{
+	display: flex;
+	justify-content: center;
+
+	width: 100%;
+	margin-top: 1.75rem;
+}
+
+.submit button{
+	font-size: 1.1rem;
+
+	padding: 1rem 1.5rem;
+
+	cursor: pointer;
+
+	border: 2px solid #696969;
+	border-radius: 4px;
+	background-color: lightcyan;
+}
+/* btn */
+#btn-mas{ 
+    display: none;
+}
+.container{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.redes a, .btn-mas label{
+    display: block;
+    text-decoration: none;
+    background: #cc2b2b;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+}
+.redes a:hover{
+    background: #fff;
+    color: #cc2b2b;
+}
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-mas:checked~ .redes a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+.btn-mas label{
+    cursor: pointer;
+    background: #f44141;
+    font-size: 23px;
+}
+#btn-mas:checked ~ .btn-mas label{
+    transform: rotate(135deg);
+    font-size: 25px;
+}

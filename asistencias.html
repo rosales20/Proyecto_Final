@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet"> 
+	
+	<link rel="stylesheet" href="css/pushbar.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	
+	<title>Watch Store</title>
+</head>
+<body>
+	<div class="contenedor">
+		
+		<main>
+			<nav>
+				<button class="btn-menu"  data-pushbar-target="pushbar-menu" ><i class="fas fa-bars"></i></button>
+				<a href="#" >Nicolas copernico</a>
+			</nav>
+			
+		</main>
+        <div class="formu_tod">
+            <div class="titulo">
+                    <h1>Asistencia</h1>
+            </div>
+            <div class="formu">
+                <h2>Seleccione informacion de asistencia para agregar</h2><br><br>
+                <label for="">Grado:</label>
+                <input type="text"><br><br><br>
+                <label for="">Seccion:</label>
+                <input type="text"><br><br><br>
+                <label for="">Turno:</label>
+                <input type="text"><br><br><br>
+                <label for="">fecha:</label>
+                <input type="date"><br><br><br>
+                <button>Registrar</button>
+
+
+            </div>
+
+        </div>
+
+
+
+		<!-- Pushbars: Menu -->
+	
+			<div data-pushbar-id="pushbar-menu" class="pushbar" data-pushbar-direction="left" class="pushbar-menu" >
+			
+			<div class="btn-cerrar derecha">
+					<button data-pushbar-close><i class="fas fa-times" ></i></button>
+			</div>
+			<nav class="menu">
+				<a href="index.html">Inicio </a>
+				<a href="reservacion_libros.html">Reservacion de Libros </a>
+				<a href="horarios.html">Horarios  </a>
+				<a href="asistencias.html">Asistencias </a>
+				<a href="#">Registro de Asistencias </a>
+                <a href="Principal.html">Salir</a>
+
+			</nav>
+
+		</div>
+		
+
+
+
+
+		<!-- Pushbars: Carrito de Compras -->
+		
+
+		<!-- Pushbars: Productos -->
+		
+
+		<!-- Pushbars: Newsletter -->
+		
+	</div>
+
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<script src="js/pushbar.js"></script>
+	
+	<script>
+		const pushbar =   new Pushbar({
+			  blur:false,
+			  overlay:true,
+			});
+	  
+	  </script>
+</body>
+</html>

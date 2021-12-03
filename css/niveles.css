@@ -1,0 +1,133 @@
+*{
+    margin:0;  
+    padding: 0%;
+    box-sizing: border-box;
+
+ 
+    
+}.titulo{
+    background: rgba(9, 48, 121, 0.8);
+    width: 95%;
+    height: 190px;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+    font-size: 60px;
+    color: white;
+    
+}.con_1 img{
+float: left;
+width: 450px;
+height: 400px;
+
+}.con_1{
+    background: blanchedalmond;
+    width: 90%;
+    height: 500px;
+    padding:50px ;
+}.con_1 p, li{
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 35px;
+} .con_2 h1{
+    text-align: center;
+ 
+}.con_1 h2{
+    text-align: center;
+    
+}
+
+
+
+.con_2 img{
+    float: right;
+    width: 500px;
+    height: 400px;
+}.con_2{
+    background: rgb(255, 255, 255);
+    width: 90%;
+    height: 500px;
+    padding:50px ;
+}.con_2 p{
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.reg{
+    background: rgb(255, 0, 0,.9);
+    text-align: center;
+    height: 250px;
+    padding-top: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: white;
+}.reg button{
+    border: none;
+    background: #00009b;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #000acf;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.25s;
+    cursor: pointer;
+}/* btn */
+#btn-mas{ 
+    display: none;
+}
+.container{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.redes a, .btn-mas label{
+    display: block;
+    text-decoration: none;
+    background: #cc2b2b;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+}
+.redes a:hover{
+    background: #fff;
+    color: #cc2b2b;
+}
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-mas:checked~ .redes a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+.btn-mas label{
+    cursor: pointer;
+    background: #f44141;
+    font-size: 23px;
+}
+#btn-mas:checked ~ .btn-mas label{
+    transform: rotate(135deg);
+    font-size: 25px;
+}.otros{
+   padding: 15px;
+   
+    text-decoration: none;
+    font-size: 30px;
+    color: blue;
+    opacity: 80%;
+    
+}
+ 
